@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[the user is on book a flight]]>
+    </line>
+    <line>
+      <![CDATA[user book a flight on round trip]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50844" started-at="2020-06-28T13:35:43 IST" finished-at="2020-06-28T13:36:34 IST">
+    <groups>
+      <group name="BookaFlight">
+        <method signature="FirstLogin.check_Roundtrip_button()[pri:3, instance:com.selenuim.FirstLogin@87af79]" name="check_Roundtrip_button" class="com.selenuim.FirstLogin"/>
+        <method signature="FirstLogin.set_Departure_And_Arrival_Location()[pri:5, instance:com.selenuim.FirstLogin@87af79]" name="set_Departure_And_Arrival_Location" class="com.selenuim.FirstLogin"/>
+        <method signature="FirstLogin.selectPassenger_count()[pri:4, instance:com.selenuim.FirstLogin@87af79]" name="selectPassenger_count" class="com.selenuim.FirstLogin"/>
+      </group> <!-- BookaFlight -->
+    </groups>
+    <test name="Default test" duration-ms="50844" started-at="2020-06-28T13:35:43 IST" finished-at="2020-06-28T13:36:34 IST">
+      <class name="com.selenuim.FirstLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenuim.FirstLogin@87af79]" name="setUp" is-config="true" duration-ms="14794" started-at="2020-06-28T13:35:43 IST" finished-at="2020-06-28T13:35:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_funct()[pri:1, instance:com.selenuim.FirstLogin@87af79]" name="Login_funct" duration-ms="10111" started-at="2020-06-28T13:35:58 IST" finished-at="2020-06-28T13:36:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_funct -->
+        <test-method status="PASS" signature="check_if_user_book_flight()[pri:2, instance:com.selenuim.FirstLogin@87af79]" name="check_if_user_book_flight" duration-ms="18" started-at="2020-06-28T13:36:08 IST" depends-on-methods="com.selenuim.FirstLogin.Login_funct" finished-at="2020-06-28T13:36:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[the user is on book a flight]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_if_user_book_flight -->
+        <test-method status="PASS" signature="check_Roundtrip_button()[pri:3, instance:com.selenuim.FirstLogin@87af79]" name="check_Roundtrip_button" duration-ms="3034" started-at="2020-06-28T13:36:08 IST" depends-on-methods="com.selenuim.FirstLogin.check_if_user_book_flight" finished-at="2020-06-28T13:36:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user book a flight on round trip]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_Roundtrip_button -->
+        <test-method status="PASS" signature="selectPassenger_count()[pri:4, instance:com.selenuim.FirstLogin@87af79]" name="selectPassenger_count" duration-ms="3156" started-at="2020-06-28T13:36:11 IST" finished-at="2020-06-28T13:36:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPassenger_count -->
+        <test-method status="PASS" signature="set_Departure_And_Arrival_Location()[pri:5, instance:com.selenuim.FirstLogin@87af79]" name="set_Departure_And_Arrival_Location" duration-ms="3235" started-at="2020-06-28T13:36:14 IST" finished-at="2020-06-28T13:36:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Departure_And_Arrival_Location -->
+        <test-method status="PASS" signature="first_class_radio()[pri:6, instance:com.selenuim.FirstLogin@87af79]" name="first_class_radio" duration-ms="3096" started-at="2020-06-28T13:36:18 IST" finished-at="2020-06-28T13:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_class_radio -->
+        <test-method status="PASS" signature="click_on_buton()[pri:7, instance:com.selenuim.FirstLogin@87af79]" name="click_on_buton" duration-ms="4123" started-at="2020-06-28T13:36:21 IST" finished-at="2020-06-28T13:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_buton -->
+        <test-method status="PASS" signature="bookingFlightname()[pri:8, instance:com.selenuim.FirstLogin@87af79]" name="bookingFlightname" duration-ms="3096" started-at="2020-06-28T13:36:25 IST" finished-at="2020-06-28T13:36:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingFlightname -->
+        <test-method status="PASS" signature="bookingFlightname1()[pri:9, instance:com.selenuim.FirstLogin@87af79]" name="bookingFlightname1" duration-ms="3120" started-at="2020-06-28T13:36:28 IST" finished-at="2020-06-28T13:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingFlightname1 -->
+        <test-method status="PASS" signature="registration()[pri:10, instance:com.selenuim.FirstLogin@87af79]" name="registration" duration-ms="2448" started-at="2020-06-28T13:36:31 IST" finished-at="2020-06-28T13:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="credit()[pri:11, instance:com.selenuim.FirstLogin@87af79]" name="credit" duration-ms="523" started-at="2020-06-28T13:36:34 IST" finished-at="2020-06-28T13:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- com.selenuim.FirstLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
